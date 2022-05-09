@@ -1,3 +1,12 @@
+
+/*
+Programa: Hello World
+
+Programa en Java
+
+Autor: Cristina Sánchez Saldaña
+Fecha: 06 de mayo 2022
+*/
 package com.sic;
 
 /**
