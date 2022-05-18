@@ -19,7 +19,8 @@ public class App {
         //Try-Catch para manejo de errores
         try {
         //Llamada a la libreria mysql conector
-           Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");   
+        //Class.forName("com.mysql.jdbc.Driver");
            //Nueva conexión                           conexión a localhost |   nombre de bd | ususario mysql | contraseña  
            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/datos", "usuariotabla", "pass1234");
            //Nuevo statement para llamada de datos
